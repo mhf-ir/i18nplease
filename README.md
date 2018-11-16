@@ -39,3 +39,10 @@ As my experience most problem for UI libraries is RTL support and some stuff lik
 ## Please help me to write complete guide for developers
 
 I dono about other i18n problems i just add simple problems to tell other developers about my problems.
+
+
+## TODO
+
+* Create rule list of i18n standards base on experience
+* Add respect i18n badge for project
+* Better documentation
