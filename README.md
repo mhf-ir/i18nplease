@@ -8,7 +8,7 @@ This documentation based on CLDR data and tons of issue on github for tell UI/UX
 
 Base on world population and CLDR data the result show why this is important to desing world class UI library need to be real implementation if i18n.
 
-![See sample data base on CLDR](https://mhf-ir.github.io/i18nplease/ "See sample data base on CLDR")
+[See sample data base on CLDR](https://mhf-ir.github.io/i18nplease/)
 
 
 ## Right to left (RTL)
