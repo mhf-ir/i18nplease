@@ -6,7 +6,10 @@ This documentation based on CLDR data and tons of issue on github for tell UI/UX
 
 ## Statistics
 
-Base on world population and cldr data the result show why this is important to desing world class UI library need to be real implementation if i18n.
+Base on world population and CLDR data the result show why this is important to desing world class UI library need to be real implementation if i18n.
+
+![See sample data base on CLDR](https://mhf-ir.github.io/i18nplease/ "See sample data base on CLDR")
+
 
 ## Right to left (RTL)
 
@@ -32,3 +35,7 @@ html {
 Base on CLDR data there are different calendar types in many countries that don't UI developer doesn't care about it.
 
 As my experience most problem for UI libraries is RTL support and some stuff like date time picker or other stuff.
+
+## Please help me to write complete guide for developers
+
+I dono about other i18n problems i just add simple problems to tell other developers about my problems.
