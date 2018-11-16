@@ -172,6 +172,7 @@
             <th scope="col">Country</th>
             <th scope="col">Population</th>
             <th scope="col">Calendar types</th>
+            <th scope="col">Is non-georgian as first calendar?</th>
           </tr>
         </thead>
         <tfoot class="thead-dark">
@@ -200,12 +201,18 @@
             <td>
               {{ item.populationFormat }}
             </td>
-
             <td>
               <code>
                 {{ item.calendars.join(', ') }}
               </code>
             </td>
+            <td>
+                {% if item.isFirst %}
+                <i class="fa fa-2x fa-check-square" aria-hidden="true"></i>
+                {% else %}
+                <i class="fa fa-2x fa-square-o" aria-hidden="true"></i>
+                {% endif %}
+              </td>
           </tr>
           {% endfor %}
         </tbody>
